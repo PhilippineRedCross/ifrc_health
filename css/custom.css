@@ -1,0 +1,132 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0px;  
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.legend {
+    line-height: 20px !important;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend-hr{
+  margin: 6px 0px;
+}
+
+.item-filter {
+  position: absolute;
+  bottom: 12px;
+  left: 200px;
+  z-index: 999;
+}
+.type-filter {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  z-index: 999;
+}
+
+.popup-text {
+  font-size: 16px;
+}
+.item-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+.Notrequired {
+  background: #fb8072;
+}
+.Requiredasperoriginallist {
+  background: #8dd3c7;
+}
+.Proposedneeds {
+  background: #ffffb3;
+}
+.popup-legend-box {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  margin-left: 15px;
+  display: inline-block;
+/*  border: 1px solid #6d6e70;*/
+}
+
+#loading {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  text-align: center;
+}
+#loader{
+  height: 0px;
+}
+.btn:focus, .btn:active {
+  outline: 0 !important;
+}
+.container-fluid, .col-map {
+  padding: 0;
+}
+.prc-logo {
+  margin: 5px 12px 5px 12px;
+  height: 45px;
+}
+.ifrc-logo {
+  margin: 15px 12px 15px 12px;
+  height: 30px;
+}
+.adb-logo {
+  margin: 5px 12px 5px 12px;
+  height: 40px;
+}
+.doh-logo {
+  margin: 5px 12px 5px 12px;
+  height: 50px;
+}
+.adb-name {
+  padding: 18px 12px 0px 12px;
+}
+.navbar-logo {
+  padding: 0;
+}
+.btn-zoom {
+  position: absolute;
+  left: 47px;
+  top: 10px;
+  z-index: 1001;
+  background-color: #ffffff;
+  border-color: #d7d7d8;
+  font-weight: bold;
+  color: #6d6e70;
+  box-shadow: 1px 1px 9px #c3c3c5;
+}
+.leaflet-control-attribution {
+  color: #9f9fa3;
+}
+.leaflet-control-attribution a {    
+  text-decoration: none;
+  cursor: pointer;
+  color: #6d6e70;
+}

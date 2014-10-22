@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "airport",
+        "name": "Mactan Cebu International Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.98019790649413,
+          10.310105967745187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "port",
+        "name": "Cebu Port Authority"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.92374277114868,
+          10.311625970872937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "port",
+        "name": "Tacloban City Port"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00033318996428,
+          11.249759814057844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tacloban Airport",
+        "type": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.02632379531862,
+          11.226898356401621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "airport",
+        "name": "Nino Aquino International Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.01045608520508,
+          14.514711537645558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "port",
+        "name": "Manila International Container Terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9499454498291,
+          14.598534708616437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "warehouse",
+        "name": "Regional Operation Center and Logistics Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9511383,
+          10.3642582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "warehouse",
+        "name": "Tacloban Warehouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.007483959198,
+          11.201535541607106
+        ]
+      }
+    }
+  ]
+}

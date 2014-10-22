@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Health Facility Recovery</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/leaflet.css" rel="stylesheet" />
+<!--     <link href="css/MarkerCluster.css" rel="stylesheet" />
+    <link href="css/MarkerCluster.Default.css" rel="stylesheet" /> -->
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+  <body>
+    <div id="logo-bar">
+      
+        <div>
+          <a href="http://ifrc.org/" target="_blank"><img title="IFRC" class="ifrc-logo" src="img/IFRC-logo.png"></a>
+          <a href="http://redcross.org.ph/" target="_blank"><img title="Philippine Red Cross" class="prc-logo" src="img/PRC-logo.png"></a>
+          <a href="http://www.adb.org/" target="_blank"><img title="ADB" class="adb-logo" src="img/ADB-logo.png"></a>
+          <a href="http://www.doh.gov.ph/" target="_blank"><img title="DOH" class="doh-logo" src="img/PHL-DOH-logo.png"></a>
+      </div>
+    </div>
+
+    <div id="loading"><img id="loader" src="img/ajax_loader_gray_512.gif" /></div> 
+
+     
+     
+    <div class="container-fluid">     
+        <div id="map-container" style="position:relative;">
+          <button class="btn btn-sm btn-zoom" type="button" onClick="zoomOut();"><span class="glyphicon glyphicon-zoom-out"></span> Full Extent</button> 
+          <div id="map"></div>
+        </div>
+
+        <!-- Single button -->
+          <div class="btn-group dropup item-filter">
+            <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+              Filter by Item: <span id="item-filter-label">All</span> <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#" onClick='filterMap("item", "All");'>All</a></li>
+              <li class="divider"></li>
+              <li><a href="#" onClick='filterMap("item", "Ultrasound machine");'>Ultrasound machine</a></li>
+              <li><a href="#" onClick='filterMap("item", "Anesthesia machine");'>Anesthesia machine</a></li>
+              <li><a href="#" onClick='filterMap("item", "Ventilator (portable)");'>Ventilator (portable)</a></li>
+              <li><a href="#" onClick='filterMap("item", "Respirator (portable)");'>Respirator (portable)</a></li>
+              <li><a href="#" onClick='filterMap("item", "ECG machine");'>ECG machine</a></li>
+              <li><a href="#" onClick='filterMap("item", "Generator 6KVA");'>Generator 6KVA</a></li>
+              <li><a href="#" onClick='filterMap("item", "Std Eqpt for RHU");'>Std Eqpt for RHU</a></li>
+              <li><a href="#" onClick='filterMap("item", "OB/Del kits");'>OB/Del kits</a></li>
+              <li><a href="#" onClick='filterMap("item", "First Aid kits");'>First Aid kits</a></li>
+            </ul>
+          </div>  
+
+          <div class="btn-group dropup type-filter">
+            <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+              Filter by Type: <span id="type-filter-label">All</span> <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#" onClick='filterMap("type", "All");'>All</a></li>
+              <li class="divider"></li>
+              <li><a href="#" onClick='filterMap("type", "Hospital");'>Hospital</a></li>
+              <li><a href="#" onClick='filterMap("type", "RHU");'>RHU</a></li>
+
+            </ul>
+          </div> 
+
+      
+    </div> <!-- /.container-fluid -->
+
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/d3.min.js"></script>
+<!-- <script src="js/leaflet.markercluster-src.js"></script> -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

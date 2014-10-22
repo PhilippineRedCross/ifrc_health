@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "EASTERN SAMAR",
+        "TYPE": "CHAPTER",
+        "ADDRESS": "Capitol Site, Alang-alang, Borongan City, Eastern Samar 6800",
+        "REGION": "VISAYAS REGION",
+        "WEBSITE": "easternsamar@redcross.org.ph",
+        "N1": "055-5609040",
+        "N1_type": "Landline",
+        "N2": null,
+        "N2_Type": null,
+        "Admin": "Mrs. Josefa C. Tentativa",
+        "Admin_Title": "Officer In Charge",
+        "CONTACT": "0905-4592175",
+        "contact_alt": null,
+        "CHAIRMAN": "Dir. Jesse C. Solidon",
+        "Chairman_title": "Chapter Chairman",
+        "type": "chapter",
+        "name": "Eastern Samar Chapter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.43435,
+          11.61412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "chapter",
+        "name": "Cebu Chapter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.89981,
+          10.2993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "LEYTE",
+        "TYPE": "CHAPTER",
+        "ADDRESS": "Magsaysay Blvd. Cor. M.H. del Pilar Blvd. Tacloban City 6500",
+        "REGION": "VISAYAS REGION",
+        "WEBSITE": "leyte@redcross.org.ph",
+        "N1": "053-8320097",
+        "N1_type": "Landline",
+        "N2": "053-3213330",
+        "N2_Type": "Telefax",
+        "Admin": "Mr. Edwin A. Pamonag",
+        "Admin_Title": "Officer In Charge",
+        "CONTACT": "0917-9127797",
+        "contact_alt": null,
+        "CHAIRMAN": "Dir.  Miguel T. Tezon",
+        "Chairman_title": "Chapter Chairman",
+        "type": "chapter",
+        "name": "Leyte Chapter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00698,
+          11.24663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "WESTERN SAMAR",
+        "TYPE": "CHAPTER",
+        "ADDRESS": "Arteche Boulevard, Catbalogan City, Western Samar  6700",
+        "REGION": "VISAYAS REGION",
+        "WEBSITE": "westernsamar@redcross.org.ph",
+        "N1": "055-2516811",
+        "N1_type": "Telefax",
+        "N2": null,
+        "N2_Type": null,
+        "Admin": "Mr. Priam C. Arteche",
+        "Admin_Title": "Officer In Charge",
+        "CONTACT": "0917-7239784",
+        "contact_alt": null,
+        "CHAIRMAN": null,
+        "Chairman_title": "Chapter Chairman",
+        "type": "chapter",
+        "name": "Western Samar Chapter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.88333,
+          11.77599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "NATIONAL HEADQUARTERS",
+        "TYPE": "NHQ",
+        "ADDRESS": "Bonifacio Dirve, Port Area, Manila 1018",
+        "REGION": "NATIONAL CAPITAL REGION",
+        "WEBSITE": "prc@redcross.org.ph",
+        "N1": "632-6270000",
+        "N1_type": "Landline",
+        "N2": null,
+        "N2_Type": null,
+        "Admin": "Ms. Gwendolyn T. Pang",
+        "Admin_Title": "Secretary General",
+        "CONTACT": null,
+        "contact_alt": null,
+        "CHAIRMAN": "Mr. Richard J. Gordon",
+        "Chairman_title": "Chairman and CEO",
+        "type": "hq",
+        "name": "National Headquarters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9699,
+          14.59136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ORMOC CITY",
+        "TYPE": "CHAPTER",
+        "ADDRESS": "San Pablo Street, Ormoc City 6541",
+        "REGION": "VISAYAS REGION",
+        "WEBSITE": "ormoc.@redcross.org.ph",
+        "N1": "053-2552911",
+        "N1_type": "Telefax",
+        "N2": null,
+        "N2_Type": null,
+        "Admin": "Mrs. Ruby L. Gernale",
+        "Admin_Title": "Administrator",
+        "CONTACT": "0915-5457796",
+        "contact_alt": null,
+        "CHAIRMAN": "Dir. Climaco V. Evangelista",
+        "Chairman_title": "Chapter Chairman",
+        "type": "chapter",
+        "name": "Ormoc City Chapter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.61142,
+          11.00982
+        ]
+      }
+    }
+  ]
+}
