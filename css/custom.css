@@ -62,6 +62,9 @@ html, body {
 .Requiredasperoriginallist {
   background: #8dd3c7;
 }
+.DOHrevision {
+  background: #a6cee3;
+}
 .Proposedneeds {
   background: #ffffb3;
 }
@@ -83,6 +86,21 @@ html, body {
 #loader{
   height: 0px;
 }
+
+#tooltip {                      
+    position:absolute;
+    z-index:999;
+    font-size:16px;
+    font-weight: bold;
+    color: #222222;       
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    padding: 4px;       
+}      
+#tooltip:empty {
+    display:none;
+}
+
 .btn:focus, .btn:active {
   outline: 0 !important;
 }
